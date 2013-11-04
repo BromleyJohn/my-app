@@ -21,7 +21,7 @@ var app = {
     initialize: function() {
         alert("Here!!!");
 
-         $.ajax({ // ajax call starts
+         $.getJSON({ // ajax call starts
         
          url: 'http://johnah.byethost7.com/cities.php?callback=?', // JQuery loads serverside.php
         
